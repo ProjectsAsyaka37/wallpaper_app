@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:icons_plus/icons_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // Tambahkan ini untuk Firebase Authentication
 import 'package:wallpaper_app/Screen/signin_screen.dart';
 import 'package:wallpaper_app/theme/theme.dart';
@@ -239,15 +238,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       const SizedBox(height: 30.0),
                       // sign up social media logo
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Logo(Logos.facebook_f),
-                          Logo(Logos.twitter),
-                          Logo(Logos.google),
-                          Logo(Logos.apple),
-                        ],
-                      ),
+                      // Row(
+                      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      //   children: [
+                      //     AnyLogo.tech.google.image(),
+                      //     AnyLogo.media.facebook.image(),
+                      //     AnyLogo.tech.apple.image(),
+                      //   ],
+                      // ),
                       const SizedBox(height: 25.0),
                       // already have an account
                       Row(

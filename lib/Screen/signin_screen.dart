@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:icons_plus/icons_plus.dart';
 import 'package:wallpaper_app/Screen/signup_screen.dart';
 import 'package:wallpaper_app/layouting/custom_scaffold.dart';
 import '../theme/theme.dart';
@@ -206,15 +205,14 @@ class _SignInScreenState extends State<SignInScreen> {
                         ],
                       ),
                       const SizedBox(height: 25.0),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Logo(Logos.facebook_f),
-                          Logo(Logos.twitter),
-                          Logo(Logos.google),
-                          Logo(Logos.apple),
-                        ],
-                      ),
+                      // Row(
+                      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      //   children: [
+                      //     AnyLogo.tech.google.image(),
+                      //     AnyLogo.media.facebook.image(),
+                      //     AnyLogo.tech.apple.image(),
+                      //   ],
+                      // ),
                       const SizedBox(height: 25.0),
                       // don't have an account
                       Row(
