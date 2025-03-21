@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596553437755",
+    "project_id": "coolwallpaper-37",
+    "storage_bucket": "coolwallpaper-37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596553437755:android:2abce15ec3ec75c956c21e",
+        "android_client_info": {
+          "package_name": "com.coolwallpaper_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596553437755-0apdj603qsg9rqa5ss1r6l2kqdip6r5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coolwallpaper_app",
+            "certificate_hash": "c2d852826187d385f5284f438fafd99a2a4f6b64"
+          }
+        },
+        {
+          "client_id": "596553437755-9k56pgvooj47tp2mv6qa0sbji5gsjavg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEB3ObavNPrJopg9EWuHN0kHG5kjflXQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596553437755-9k56pgvooj47tp2mv6qa0sbji5gsjavg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
